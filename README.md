@@ -327,6 +327,8 @@ Agora use o comando `git checkout <branch name>` para trocar de branch.
 Switched to branch 'hello-world-python'
 ```
 
+Crie um arquivo chamado helloworld.py na nova branch e digite print("Hello world").
+
 
 ### Gerenciamento de Branch<a name="gerenciamento-de-branch"/>
 
