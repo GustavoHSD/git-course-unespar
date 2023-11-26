@@ -302,9 +302,31 @@ Esse comando funcionara somente em um servidor que você tem permissão de escri
 
 ### O que é Branch<a name="o-que-é-branch"/>
 
-No git uma branch é uma nova ramificação do repositório principal. Branches permitem trabalhar em diferentes partes do projeto sem afetar a branch principal. Elas podem ser 
+No git uma branch é uma nova ramificação do repositório principal. Branches permitem trabalhar em diferentes partes do projeto sem afetar a branch principal. Você pode fazer o merge dessas diferentes branches na main/master.
 
 ### Branch e Merge<a name="branch-e-merge"/>
+
+#### Criando nova Branch
+
+Vamos adicionar um hello world em python ao nosso projeto.
+
+Para isso criaremos a branch hello-world-python usando o comando `git branch <branch name>`
+```
+git branch hello-world-python
+```
+
+Use o comando `git branch` para ver todas branches do projeto, o output deveria ser algo como:
+```
+  hello-world-python
+* main
+```
+
+Agora use o comando `git checkout <branch name>` para trocar de branch.
+
+```
+Switched to branch 'hello-world-python'
+```
+
 
 ### Gerenciamento de Branch<a name="gerenciamento-de-branch"/>
 
