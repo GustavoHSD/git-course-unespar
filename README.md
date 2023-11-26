@@ -329,6 +329,9 @@ Switched to branch 'hello-world-python'
 
 Crie um arquivo chamado helloworld.py na nova branch e digite print("Hello world").
 
+Execute o comando `git commit -a -m "Hello world in python"`
+
+Note que a flag `-a` permite pular o staging e faz a commit direto.
 
 ### Gerenciamento de Branch<a name="gerenciamento-de-branch"/>
 
