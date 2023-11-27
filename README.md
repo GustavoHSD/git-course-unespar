@@ -3,7 +3,7 @@ Mini curso de git para a semana da computação da UNESPAR - Apucarana
 
 # Sumário
 
-1. [Introdução](#introdução)
+1. [Introdução](#introducao)
 2. [Controle de Versão](#controle-de-versão)
    1. [Surgimento do Git](#surgimento-do-git)
    2. [Instalação e Setup](#instalação-e-setup)
@@ -18,7 +18,7 @@ Mini curso de git para a semana da computação da UNESPAR - Apucarana
    3. [Gerenciamento de Branch](#gerenciamento-de-branch)
 5. [Exemplos de Uso](#exemplos-de-uso)
 
-# Introdução<a name="introdução"/>
+# Introdução<a name="introducao"/>
 
 ## Controle de Versão
 
@@ -331,8 +331,8 @@ Crie um arquivo chamado helloworld.py na nova branch e digite print("Hello world
 
 Execute o comando `git commit -a -m "Hello world in python"`
 
-Note que a flag `-a` permite pular o staging e faz a commit direto.
+Note que a flag `-a` permite pular o staging e faz a commit direto. Use o comando `ls` para ver os arquivos.
 
-### Gerenciamento de Branch<a name="gerenciamento-de-branch"/>
+Agora volte para a branch main usando o comando `git checkout main` e use `ls` e perceba que o novo arquivo criado na branch hello-world-python não está branch main.
 
-## Exemplos de Uso<a name="exemplos-de-uso"/>
+Use o comando git merge hellow-world-python para juntar as brench hellow-world-python a main.
