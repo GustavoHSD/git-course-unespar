@@ -15,8 +15,7 @@ Mini curso de git para a semana da computação da UNESPAR - Apucarana
 4. [Git Branching](#git-branching)
    1. [O que é Branch](#o-que-é-branch)
    2. [Branch e Merge](#branch-e-merge)
-   3. [Gerenciamento de Branch](#gerenciamento-de-branch)
-5. [Exemplos de Uso](#exemplos-de-uso)
+
 
 # Introdução<a name="introducao"/>
 
